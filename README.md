@@ -1,5 +1,9 @@
 # 📦 JustDiveCol – Static Assets
 
+![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-red)
+![Version](https://img.shields.io/badge/version-2025.08.25-blue)
+![Status](https://img.shields.io/badge/status-production-green)
+
 This repository hosts **brand-wide static files** served from  
 👉 [https://static.justdivecol.com](https://static.justdivecol.com)
 
