@@ -1,0 +1,16 @@
+Copyright 2011 The Montserrat Project Authors (https://github.com/JulietaUla/Montserrat)
+Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora)
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: https://scripts.sil.org/OFL
+
+Permission is hereby granted, free of charge, to use, study, copy, merge, embed,
+modify, redistribute, and sell modified and unmodified copies of the Font Software,
+subject to the following conditions:
+
+1) Neither the Font Software nor any of its individual components, in Original or Modified Versions,
+may be sold by itself.
+
+2) The Font Software, including any Modified Versions, must remain under this license.
+
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.

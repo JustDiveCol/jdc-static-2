@@ -1,0 +1,18 @@
+@import url('/css/tokens.css');
+@import url('/css/fonts.css');
+
+html,
+body {
+  font-family: var(--font-sans);
+  background: var(--brand-primary-dark);
+  color: var(--brand-neutral);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-sans);
+}
