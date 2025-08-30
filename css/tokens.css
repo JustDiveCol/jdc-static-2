@@ -3,17 +3,30 @@
    =========================== */
 :root {
   /* Brand colors */
-  --brand-primary: #0a264f;
-  --brand-primary-dark: #071a38;
-  --brand-neutral: #e6ecf3;
-  --brand-cta-orange: #ff8a00;
-  --brand-accent: #13c3ff;
+  --brand-primary-dark: #0a264f;
+  --brand-primary-medium: #133e70;
+  --brand-primary-light: #36598b;
+  --brand-primary-soft: #8faed2;
 
-  /* Text & Neutrals */
-  --text: #0e1420;
-  --muted: #556070;
-  --bg: #ffffff;
-  --bg-alt: #f5f7fa;
+  /* Texts */
+  --text-primary: #1a1a1a;
+  --text-secondary: #4d4d4d;
+  --text-muted: #7a7a7a;
+  --text-on-dark-primary: #f5f7fa;
+  --text-on-dark-secondary: #e6ecf3;
+  --text-on-dark-muted: #c1c7d0;
+  --cta-text: #f5f7fa;
+
+  /* CTA */
+  --cta-orange: #ff7a00;
+  --cta-green: #40d798;
+  --cta-yellow: #f7d794;
+
+  /* Neutrals */
+  --neutral-light: #f5f7fa;
+  --neutral-medium: #e6ecf3;
+  --neutral-dark: #2e2e2e;
+  --neutral-muted: #c1c7d0;
 
   /* Spacing scale (rem-based for clarity) */
   --space-1: 0.25rem;
