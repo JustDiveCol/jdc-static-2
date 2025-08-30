@@ -1,26 +1,29 @@
 /* ===========================
    JustDiveCol Design Tokens
+   Base (dark theme default)
    =========================== */
 :root {
-  /* Brand colors */
+  /* Brand blues */
   --brand-primary-dark: #0a264f;
   --brand-primary-medium: #133e70;
   --brand-primary-light: #36598b;
   --brand-primary-soft: #8faed2;
 
-  /* Texts */
-  --text-primary: #1a1a1a;
-  --text-secondary: #4d4d4d;
-  --text-muted: #7a7a7a;
-  --text-on-dark-primary: #f5f7fa;
-  --text-on-dark-secondary: #e6ecf3;
-  --text-on-dark-muted: #c1c7d0;
-  --cta-text: #f5f7fa;
+  /* Texts (default sobre fondos oscuros) */
+  --text-primary: #f5f7fa;
+  --text-secondary: #e6ecf3;
+  --text-muted: #c1c7d0;
+
+  /* Texts alternativos sobre fondos claros */
+  --text-on-light-primary: #1a1a1a;
+  --text-on-light-secondary: #4d4d4d;
+  --text-on-light-muted: #7a7a7a;
 
   /* CTA */
   --cta-orange: #ff7a00;
   --cta-green: #40d798;
   --cta-yellow: #f7d794;
+  --cta-text: #f5f7fa;
 
   /* Neutrals */
   --neutral-light: #f5f7fa;
@@ -28,7 +31,16 @@
   --neutral-dark: #2e2e2e;
   --neutral-muted: #c1c7d0;
 
-  /* Spacing scale (rem-based for clarity) */
+  /* ======================
+     Aliases semánticos
+     ====================== */
+  --bg: var(--neutral-dark);
+  --bg-alt: var(--brand-primary-dark);
+  --text: var(--text-primary);
+  --muted: var(--text-muted);
+  --cta-main: var(--cta-orange);
+
+  /* Spacing scale */
   --space-1: 0.25rem;
   --space-2: 0.5rem;
   --space-3: 0.75rem;
@@ -65,4 +77,44 @@
   --bp-md: 768px;
   --bp-lg: 1024px;
   --bp-xl: 1280px;
+}
+
+/* ===========================
+   Variantes por sitio
+   =========================== */
+
+/* Sitio A – corporativo y sólido */
+:root[data-site='a'] {
+  --bg: var(--brand-primary-dark);
+  --bg-alt: var(--neutral-dark);
+  --text: var(--text-primary);
+  --muted: var(--text-muted);
+  --cta-main: var(--cta-orange);
+}
+
+/* Sitio B – moderno y fresco */
+:root[data-site='b'] {
+  --bg: var(--brand-primary-medium);
+  --bg-alt: var(--brand-primary-soft);
+  --text: var(--text-primary);
+  --muted: var(--text-secondary);
+  --cta-main: var(--cta-green);
+}
+
+/* Sitio C – joven y brillante */
+:root[data-site='c'] {
+  --bg: var(--brand-primary-light);
+  --bg-alt: var(--neutral-medium);
+  --text: var(--text-primary);
+  --muted: var(--text-secondary);
+  --cta-main: var(--cta-yellow);
+}
+
+/* Sitio D – minimal premium */
+:root[data-site='d'] {
+  --bg: var(--neutral-dark);
+  --bg-alt: var(--brand-primary-dark);
+  --text: var(--text-primary);
+  --muted: var(--text-muted);
+  --cta-main: var(--cta-green);
 }
